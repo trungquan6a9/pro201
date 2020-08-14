@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome</title>
+<script src="JavaScript.js"></script>
+<script src="tilt.js-master/src/tilt.jquery.js"></script>
+<style>
+	body{
+		margin:0px;
+	}
+	.bgImage{
+		background-image:url(BackGround.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+		background-attachment:fixed;
+  		-webkit-filter: blur(8px);
+		filter: blur(8px);
+		float:left;
+		width:1920px;
+		height:968px;
+	}
+	.bgText{
+		background-color: rgb(0,0,0);
+		background-color: rgba(0,0,0, 0.4);
+		color: white;
+		font-weight: bold;
+		border: 3px solid #f1f1f1;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 2;
+		width: 80%;
+		padding: 20px;
+		text-align: center;
+	}
+	.bgText input{
+		margin-top:9px;
+		width:70px;
+		height:30px;
+		border-radius:12px;
+		border:2px solid #FFF;
+		background-color:#666;
+		color:#FFF;
+		opacity:0.7;
+		transition:all 0.7s;
+	}
+	.bgText input:hover{
+		margin-top:0px;
+		width:80px;
+		height:40px;
+		font-size:1.2em;
+		opacity:1;
+		background-color:#FFF;
+		color:#000;
+		cursor:pointer;
+	}
+	
+</style>
+<link rel="shortcut icon" href="Logo.png">
+
+</head>
+
+<body>
+<div class="bgImage"></div>
+<div class="bgText">
+  <h2>Welcome to Technology News Library</h2>
+  <h1 style="font-size:50px">I am Bui Trung Quan</h1>
+  <p>And I'm a Student in FPT University</p>
+  <input type="button" value="Home" onclick="homepage()"/>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://unpkg.com/tilt.js@1.1.20/dest/tilt.jquery.min.js"></script>
+</body>
+</html>
